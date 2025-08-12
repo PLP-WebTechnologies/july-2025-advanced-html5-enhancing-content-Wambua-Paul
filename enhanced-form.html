@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>A Simple Web Page</h1>
+      <p>
+        This page demonstrates lists, tables, media, and an accessible form
+        using pure HTML5.
+      </p>
+    </header>
+
+    <section>
+      <h2>Popular Web Technologies</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+
+      <h3>Steps to Create a Web Page</h3>
+      <ol>
+        <li>Define the structure with HTML</li>
+        <li>Style it using CSS</li>
+        <li>Add interactivity with JavaScript</li>
+        <li>Host it on a server</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Web Browsers Usage Statistics (2025)</h2>
+    <table border="4">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>30</td>
+        <td>Nairobi</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>25</td>
+        <td>Mombasa</td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td>35</td>
+        <td>kisumu</td>
+    </tr>
+    </table>
+    </section>
+
+    <section>
+      <h2>Media Showcase</h2>
+      <h3>Sample Image</h3>
+      <img src="https://via.placeholder.com/600x300" alt="Sample Placeholder Image"/>
+
+      <h3>Sample Video</h3>
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form action="#" method="post" novalidate>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name *</label>
+          <input type="text" id="fullname" name="fullname" required minlength="2" placeholder="your name"/>
+
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com"/>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+254 712345678"/>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message Details</legend>
+
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">--Please choose an option--</option>
+            <option value="support">Support</option>
+            <option value="sales">Sales</option>
+            <option value="feedback">Feedback</option>
+          </select>
+
+          <label>
+            <input type="checkbox" name="newsletter" value="yes" />
+            Subscribe to our newsletter
+          </label>
+        </fieldset>
+
+        <input type="submit" value="Submit Message" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; Simple Web Page. All rights reserved 2025.</p>
+    </footer>
+  </body>
+</html>
